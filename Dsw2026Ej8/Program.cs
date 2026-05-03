@@ -23,6 +23,13 @@
             Console.WriteLine(p4.CalcularPromedio(5, 8, null));  // → 6.5
             Console.WriteLine(p4.CalcularPromedio(null, null, null)); // → 0
             Console.WriteLine(p4.CalcularPromedio(-1, 5, 12));   // → 5  (-1 y 12 se ignoran)
+            //--------Pruebas Problema 5-------\\
+            var p5 = new Problema5();
+            Console.WriteLine("//--------Pruebas Problema 5-------\\");
+            Sale v1 = new RetailSale(1, 100);
+            Sale v2 = new WholesaleSale(1, 100);
+            Console.WriteLine(p5.ObtenerImporteFinal(v1));
+            Console.WriteLine(p5.ObtenerImporteFinal(v2));
 
         }
     }
