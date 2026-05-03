@@ -30,6 +30,10 @@
             Sale v2 = new WholesaleSale(1, 100);
             Console.WriteLine(p5.ObtenerImporteFinal(v1));
             Console.WriteLine(p5.ObtenerImporteFinal(v2));
+            //--------Pruebas Problema 6-------\\
+            var p6 = new Problema6();
+            Console.WriteLine(p6.NormalizarCodigoProducto(" asdw 123"));
+            Console.WriteLine(p6.NormalizarCodigoProducto(null));
 
         }
     }
